@@ -6,10 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/v1awifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/v1awifi/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
+    vendor/samsung/v1awifi/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/v1awifi/proprietary/vendor/lib/hw/gps.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5420.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5420.so \
     vendor/samsung/v1awifi/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client.so \
+    vendor/samsung/v1awifi/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
     vendor/samsung/v1awifi/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
     vendor/samsung/v1awifi/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
     vendor/samsung/v1awifi/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
